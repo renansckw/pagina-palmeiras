@@ -1,0 +1,57 @@
+/* fundo e fonte da página */
+body {
+    background-color: honeydew;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+/* títulos e subtítulos na mesma cor */
+h1, h2, h3 {
+    color: darkgreen;
+}
+
+/* título principal centralizado */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* menu */
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* imagem */
+img {
+    width: 300px;
+}
+
+/* classe: caixa de cada seção */
+.card {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+/* listas */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* id: rodapé */
+#rodape {
+    text-align: center;
+}
